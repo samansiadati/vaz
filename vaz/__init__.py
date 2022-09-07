@@ -1,1 +1,1 @@
-from .vazi import open_csv
+from .vazi import open_csv, open_excel, open_json
