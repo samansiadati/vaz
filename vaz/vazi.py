@@ -25,7 +25,7 @@ def open_excel(file_name, file_path=None):
 
 
 # This method opens a JSON file
-def openNN_json(file_name, file_path=None):
+def open_json(file_name, file_path=None):
     data = get_file(file_name, file_path)
-    dfrm_json = pd.read_excel(data)
+    dfrm_json = pd.read_json(data)
     return dfrm_json
